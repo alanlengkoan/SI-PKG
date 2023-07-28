@@ -1,2 +1,2 @@
 # SI-PKG
-Sistem Informasi Penilaian Kinerja Guru Berbasiswa
+Sistem Informasi Penilaian Kinerja Guru Berbasiswa.
