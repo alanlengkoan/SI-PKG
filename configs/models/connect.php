@@ -6,14 +6,14 @@
 class Koneksi
 {
 
-  // public $host = 'localhost';
-  // public $user = 'my_root';
-  // public $pass = 'my_pass';
-  // public $dbnm = 'codepoze_si_pkg';
-  public $host = 'sql208.infinityfree.com';
-  public $user = 'epiz_34009463';
-  public $pass = 'bMgmwLP66Mei4';
-  public $dbnm = 'epiz_34009463_sipkg';
+  public $host = 'localhost';
+  public $user = 'my_root';
+  public $pass = 'my_pass';
+  public $dbnm = 'skripsi_si-pkg';
+  // public $host = 'sql208.infinityfree.com';
+  // public $user = 'epiz_34009463';
+  // public $pass = 'bMgmwLP66Mei4';
+  // public $dbnm = 'epiz_34009463_sipkg';
   public $kon;
 
   // fungsi untuk koneksi ke database menggunakan pdo
