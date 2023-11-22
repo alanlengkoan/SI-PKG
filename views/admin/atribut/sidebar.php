@@ -24,7 +24,7 @@
                 <li class="<?= ($_REQUEST['content'] == "jabatan") ? 'active' : '' ?>">
                     <a href="jabatan">
                         <i class="menu-icon fa fa-list"></i>
-                        Jabatan
+                        Status
                     </a>
                 </li>
                 <li class="<?= ($_REQUEST['content'] == "pangkat") ? 'active' : '' ?>">
@@ -36,7 +36,7 @@
                 <li class="<?= ($_REQUEST['content'] == "pendidikan") ? 'active' : '' ?>">
                     <a href="pendidikan">
                         <i class="menu-icon fa fa-list"></i>
-                        Pendidikan
+                        Jurusan
                     </a>
                 </li>
                 <li class="<?= ($_REQUEST['content'] == "kriteria") ? 'active' : '' ?>">

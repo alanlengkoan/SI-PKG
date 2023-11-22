@@ -38,7 +38,7 @@
                    <label for="nip" class=" form-control-label">NIP&nbsp;*</label>
                  </div>
                  <div class="col-12 col-md-9">
-                   <input type="text" id="nip" name="nip" class="form-control form-control-sm" placeholder="Masukkan NIP" />
+                   <input type="text" id="nip" name="nip" class="form-control form-control-sm" maxlength="16" placeholder="Masukkan NIP" />
                    <small class="help-block form-text error"></small>
                  </div>
                </div>
@@ -84,7 +84,7 @@
                </div>
                <div class="row form-group">
                  <div class="col col-md-3">
-                   <label for="id_jabatan" class=" form-control-label">Jabatan&nbsp;*</label>
+                   <label for="id_jabatan" class=" form-control-label">Status&nbsp;*</label>
                  </div>
                  <div class="col-12 col-md-9">
                    <select name="id_jabatan" id="id_jabatan" class="form-control form-control-sm">
@@ -116,7 +116,7 @@
                </div>
                <div class="row form-group">
                  <div class="col col-md-3">
-                   <label for="id_pendidikan" class=" form-control-label">Pendidikan&nbsp;*</label>
+                   <label for="id_pendidikan" class=" form-control-label">Jurusan&nbsp;*</label>
                  </div>
                  <div class="col-12 col-md-9">
                    <select name="id_pendidikan" id="id_pendidikan" class="form-control form-control-sm">
