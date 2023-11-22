@@ -110,6 +110,25 @@ $row        = $guru->fetch(PDO::FETCH_OBJ);
             <td>: <?= $myfun->tanggal_indo($row->tgl) ?></td>
         </tr>
     </table>
+    <br /><br />
+    <table id="tabel-pengembalian" style="width: 100%;">
+        <tr>
+            <td width="500"></td>
+            <td style="text-align: center;">
+                Mamasa, <?= $myfun->tanggal_indo(date('Y-m-d')) ?>
+                <br />
+                Mengetahui
+                <br />
+                <b>Kepala Sekolah</b>
+                <br />
+                <img src="./../../../assets/admin/images/ttd.png" alt="logo" title="logo" />
+                <br />
+                <b style="text-decoration: underline;">
+                    Buttu Langi S.Pd.
+                </b>
+            </td>
+        </tr>
+    </table>
 </div>
 
 <?php
